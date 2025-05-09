@@ -7,7 +7,7 @@ def RSA(p: int, q: int, m: int):
         if gcd(i, t) == 1:
             encrypt = i
             break
-    r = 0
+    j = 1
     while True:
         if (j * encrypt) % t == 1:
             decrypt = r
